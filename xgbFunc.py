@@ -236,7 +236,7 @@ def visualize_shap(model, X_train, sample_size=10000):
     shap_values = explainer(X_sample)
     shap.summary_plot(
         shap_values,
-        X_train,
+        X_sample,
         feature_names=X_train.columns.tolist(),
         show=False,
         plot_type="dot",

@@ -15,7 +15,7 @@ for subdir in os.listdir(base_dir):
         model_path = os.path.join(subdir_path, "model.json")
         drop_path = os.path.join(subdir_path, "drop.json")
         if os.path.exists(model_path) and os.path.exists(drop_path):
-            print("fount drop.json and drop.json")
+            print("found drop.json and drop.json")
             booster = xgb.Booster()
             booster.load_model(model_path)
             with open(drop_path) as f:
