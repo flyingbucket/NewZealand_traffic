@@ -1,0 +1,14 @@
+{
+  "data_path":"data/crash_injury.csv",
+  "round": "binary_clf",
+  "target":"injury",
+  "n_trials":30,
+  "drop_lst": [
+    "OBJECTID",
+    "injury",
+    "crashSeverity",
+    "minorInjuryCount",
+    "seriousInjuryCount",
+    "fatalCount"
+  ]
+}

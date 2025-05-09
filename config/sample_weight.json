@@ -1,0 +1,13 @@
+{
+  "data_path":"data/crash.csv"
+  "round": "sample_weight",
+  "target":"crashSeverity",
+  "n_trials":30,
+  "drop_lst": [
+    "OBJECTID",
+    "crashSeverity",
+    "minorInjuryCount",
+    "seriousInjuryCount",
+    "fatalCount"
+  ]
+}

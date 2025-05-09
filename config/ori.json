@@ -1,0 +1,7 @@
+{
+  "data_path":"data/crash.csv"
+  "round":"ori",
+  "target":"crashSeverity",
+  "n_trials":30,
+  "drop_lst":[]
+}
